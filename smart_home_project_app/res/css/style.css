@@ -1,0 +1,436 @@
+body {
+}
+
+header {
+    padding-top: 70px;
+    background            : url(../img/smart_home_header.jpg) no-repeat top;
+    background-size       : cover;
+    background-attachment : fixed !important;
+    height: 450px;
+    }
+
+header h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+#welcome {
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: #aaaaaa;
+}
+
+#welcome h4 {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#welcome p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#welcome img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: #000;
+}
+
+.sec1 {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.sec1 h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.sec5 {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background            : url(../img/aussen2.jpg) no-repeat center;
+    background-size       : cover;
+    background-attachment : fixed !important;
+}
+
+.sec5 h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.sec2 {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background            : url(../img/innen.jpg) no-repeat center;
+    background-size       : cover;
+    background-attachment : fixed !important;
+}
+
+.sec2 h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.sec2 table {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    color: #ffffff;
+}
+
+#rooms {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.table_pic {
+    width: 150px;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#ctrl_btn {
+    width: 120px;
+}
+
+#ctrl_btn a {
+    color: #ffffff;
+}
+
+#ctrl_btn a:hover {
+    text-decoration: none;
+}
+
+.onoff_btn {
+    width: 80px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.onoff_btn a {
+    color: #ffffff;
+}
+
+.onoff_btn a:hover {
+    text-decoration: none;
+}
+
+.sec21 {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background            : url(../img/innen.jpg) no-repeat center;
+    background-size       : cover;
+    background-attachment : fixed !important;
+}
+
+.sec21 h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.sec21 table {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.sec3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top-style: solid;
+    border-top-color: #aaaaaa;
+}
+
+.col-md-offset-1 {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.col-md-5 {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.col-md-6 {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-md-3 {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.sec24 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top-style: solid;
+    border-top-color: #aaaaaa;
+}
+
+#foot {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login label {
+    color: #ffffff;
+}
+
+#login input {
+    width: 250px;
+}
+
+
+#new_room input {
+    width: 150px;
+}
+
+#new_light input {
+    width: 150px;
+}
+
+#new_light select {
+    width: 150px;
+}
+
+#new_shutter input {
+    width: 150px;
+}
+
+#new_shutter select {
+    width: 150px;
+}
+
+#del_room input {
+    width: 150px;
+}
+
+#del_room select {
+    width: 150px;
+}
+
+#del_light input {
+    width: 150px;
+}
+
+#del_light select {
+    width: 150px;
+}
+
+#del_shutter input {
+    width: 150px;
+}
+
+#del_shutter select {
+    width: 150px;
+}
+
+#remember {
+    width: 20px;
+}
+
+#login button {
+    width: 250px;
+}
+
+#login div {
+    width: 250px;
+}
+
+#new_room button {
+    width: 150px;
+}
+
+#new_light button {
+    width: 150px;
+}
+
+#new_shutter button {
+    width: 150px;
+}
+
+#del_room button {
+    width: 150px;
+}
+
+#del_light button {
+    width: 150px;
+}
+
+#del_shutter button {
+    width: 150px;
+}
+
+.form-signin {
+    text-align: left;
+}
+
+.form-signin-heading {
+    color: #ff0000;
+}
+
+#log_btn a {
+    color: #ffffff;
+}
+
+#log_btn a:hover {
+    text-decoration: none;
+}
+
+.picto a:hover {
+    filter: opacity(0.5);
+    text-decoration: none;
+}
+
+#status a:hover {
+    text-decoration: none;
+}
+
+/* Customize the label (the container2) */
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container2 .checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#room {
+  margin-top: 15px;
+}
+
+.report-container {
+    border: #E0E0E0 1px solid;
+    padding: 20px 40px 40px 40px;
+    border-radius: 2px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.weather-icon {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.weather-forecast {
+    color: #212121;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+span.min-temperature {
+    margin-left: 15px;
+    color: #929292;
+}
+
+.time {
+    line-height: 25px;
+}
